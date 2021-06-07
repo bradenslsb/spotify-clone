@@ -6,6 +6,8 @@ import SpotifyWebApi from "spotify-web-api-js"
 import Player from "./Player"
 import { useDataLayerValue } from "./DataLayer"
 
+//Comment to see why my github isn't reconizing my commits
+
 
 const spotify = new SpotifyWebApi();
 

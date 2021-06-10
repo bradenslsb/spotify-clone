@@ -37,7 +37,7 @@ function App() {
     console.log("I have a token" , token)
   }, []);
 
-  console.log("person/user", user)
+  console.log("person/ the user logged in", user)
 
 
   return (

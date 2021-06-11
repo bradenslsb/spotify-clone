@@ -34,7 +34,7 @@ function App() {
     }
 
 
-    console.log("I have a token" , token)
+    console.log("I have a token so take that" , token)
   }, []);
 
   console.log("person/ the user logged in", user)

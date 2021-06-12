@@ -20,7 +20,13 @@ function Sidebar() {
       <strong className="sidebar_title">PlAYLISTS</strong>
       <hr />
 
-    
+      <SidebarOption title="ONE PLAYLIST" />
+      <SidebarOption title="Another playlist" />
+      <SidebarOption title="oneagain playlist" />
+      <SidebarOption title="wow playlist" />
+      {playlists?.items?.map(playlist => {
+        <SidebarOption title={playlist.name} />
+      })}
 
     </div>
   )

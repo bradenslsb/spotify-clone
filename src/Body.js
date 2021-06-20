@@ -5,7 +5,7 @@ import "./Body.css"
 function Body({ spotify }) {
   return (
     <div className="body">
-      <h1>body</h1>
+      <h1>this is the body</h1>
       <Header spotify={spotify} />
     </div>
   )
